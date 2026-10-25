@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://flowmat.monsalve.com.co/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://flowmat.monsalve.com.co/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flowmat.monsalve.com.co/en/"/></url>
+  <url><loc>https://flowmat.monsalve.com.co/en/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://flowmat.monsalve.com.co/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://flowmat.monsalve.com.co/en/"/></url>
+  <url><loc>https://flowmat.monsalve.com.co/prensa/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://flowmat.monsalve.com.co/privacidad/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://flowmat.monsalve.com.co/en/privacy/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://flowmat.monsalve.com.co/borrar-cuenta/</loc></url>
+  <url><loc>https://flowmat.monsalve.com.co/en/delete-account/</loc></url>
+</urlset>
