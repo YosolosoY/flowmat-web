@@ -1,0 +1,176 @@
+{
+ "condiciones": [
+  {
+   "es": "/pilates-para/lumbalgia-sin-hernia/",
+   "en": "/en/pilates-for/low-back-pain-no-herniation/"
+  },
+  {
+   "es": "/pilates-para/hernia-o-protrusion-discal-lumbar/",
+   "en": "/en/pilates-for/lumbar-disc-herniation-or-bulge/"
+  },
+  {
+   "es": "/pilates-para/ciatica/",
+   "en": "/en/pilates-for/sciatica/"
+  },
+  {
+   "es": "/pilates-para/espondilolisis-o-espondilolistesis/",
+   "en": "/en/pilates-for/spondylolysis-or-spondylolisthesis/"
+  },
+  {
+   "es": "/pilates-para/estenosis-de-canal-lumbar/",
+   "en": "/en/pilates-for/lumbar-spinal-stenosis/"
+  },
+  {
+   "es": "/pilates-para/escoliosis/",
+   "en": "/en/pilates-for/scoliosis/"
+  },
+  {
+   "es": "/pilates-para/hipercifosis/",
+   "en": "/en/pilates-for/hyperkyphosis/"
+  },
+  {
+   "es": "/pilates-para/hiperlordosis-lumbar/",
+   "en": "/en/pilates-for/lumbar-hyperlordosis/"
+  },
+  {
+   "es": "/pilates-para/cervicalgia-o-hernia-cervical/",
+   "en": "/en/pilates-for/neck-pain-or-cervical-herniation/"
+  },
+  {
+   "es": "/pilates-para/osteoporosis-u-osteopenia/",
+   "en": "/en/pilates-for/osteoporosis-or-osteopenia/"
+  },
+  {
+   "es": "/pilates-para/artrosis-de-rodilla/",
+   "en": "/en/pilates-for/knee-osteoarthritis/"
+  },
+  {
+   "es": "/pilates-para/artrosis-de-cadera/",
+   "en": "/en/pilates-for/hip-osteoarthritis/"
+  },
+  {
+   "es": "/pilates-para/artritis-reumatoide/",
+   "en": "/en/pilates-for/rheumatoid-arthritis/"
+  },
+  {
+   "es": "/pilates-para/hombro-manguito-rotador-pinzamiento-hombro-congelado/",
+   "en": "/en/pilates-for/shoulder-rotator-cuff-impingement-frozen-shoulder/"
+  },
+  {
+   "es": "/pilates-para/muneca-o-tunel-carpiano/",
+   "en": "/en/pilates-for/wrist-or-carpal-tunnel/"
+  },
+  {
+   "es": "/pilates-para/rodilla-ligamentos-meniscos-condromalacia/",
+   "en": "/en/pilates-for/knee-ligaments-meniscus-chondromalacia/"
+  },
+  {
+   "es": "/pilates-para/tobillo-esguince-reciente-o-inestabilidad/",
+   "en": "/en/pilates-for/ankle-recent-sprain-or-instability/"
+  },
+  {
+   "es": "/pilates-para/protesis-de-cadera-abordaje-posterior/",
+   "en": "/en/pilates-for/hip-replacement-posterior-approach/"
+  },
+  {
+   "es": "/pilates-para/protesis-de-cadera-abordaje-anterior/",
+   "en": "/en/pilates-for/hip-replacement-anterior-approach/"
+  },
+  {
+   "es": "/pilates-para/protesis-de-rodilla/",
+   "en": "/en/pilates-for/knee-replacement/"
+  },
+  {
+   "es": "/pilates-para/embarazo-primer-trimestre/",
+   "en": "/en/pilates-for/pregnancy-first-trimester/"
+  },
+  {
+   "es": "/pilates-para/embarazo-segundo-y-tercer-trimestre/",
+   "en": "/en/pilates-for/pregnancy-second-and-third-trimester/"
+  },
+  {
+   "es": "/pilates-para/posparto-parto-vaginal/",
+   "en": "/en/pilates-for/postpartum-vaginal-birth/"
+  },
+  {
+   "es": "/pilates-para/posparto-con-cesarea/",
+   "en": "/en/pilates-for/postpartum-after-c-section/"
+  },
+  {
+   "es": "/pilates-para/diastasis-abdominal/",
+   "en": "/en/pilates-for/diastasis-recti/"
+  },
+  {
+   "es": "/pilates-para/suelo-pelvico-debil-incontinencia-prolapso/",
+   "en": "/en/pilates-for/weak-pelvic-floor-incontinence-prolapse/"
+  },
+  {
+   "es": "/pilates-para/hipertension/",
+   "en": "/en/pilates-for/high-blood-pressure/"
+  },
+  {
+   "es": "/pilates-para/enfermedad-cardiaca/",
+   "en": "/en/pilates-for/heart-disease/"
+  },
+  {
+   "es": "/pilates-para/hipotension/",
+   "en": "/en/pilates-for/low-blood-pressure/"
+  },
+  {
+   "es": "/pilates-para/varices-o-insuficiencia-venosa/",
+   "en": "/en/pilates-for/varicose-veins-or-venous-insufficiency/"
+  },
+  {
+   "es": "/pilates-para/diabetes/",
+   "en": "/en/pilates-for/diabetes/"
+  },
+  {
+   "es": "/pilates-para/obesidad/",
+   "en": "/en/pilates-for/obesity/"
+  },
+  {
+   "es": "/pilates-para/asma-o-epoc/",
+   "en": "/en/pilates-for/asthma-or-copd/"
+  },
+  {
+   "es": "/pilates-para/vertigo-o-mareos/",
+   "en": "/en/pilates-for/vertigo-or-dizziness/"
+  },
+  {
+   "es": "/pilates-para/migrana/",
+   "en": "/en/pilates-for/migraine/"
+  },
+  {
+   "es": "/pilates-para/parkinson-u-otra-enfermedad-neurologica/",
+   "en": "/en/pilates-for/parkinson-s-or-another-neurological-disease/"
+  },
+  {
+   "es": "/pilates-para/glaucoma-desprendimiento-de-retina-miopia-alta/",
+   "en": "/en/pilates-for/glaucoma-retinal-detachment-high-myopia/"
+  },
+  {
+   "es": "/pilates-para/hernia-abdominal-o-inguinal/",
+   "en": "/en/pilates-for/abdominal-or-inguinal-hernia/"
+  },
+  {
+   "es": "/pilates-para/cirugia-abdominal-reciente/",
+   "en": "/en/pilates-for/recent-abdominal-surgery/"
+  },
+  {
+   "es": "/pilates-para/fibromialgia/",
+   "en": "/en/pilates-for/fibromyalgia/"
+  },
+  {
+   "es": "/pilates-para/tratamiento-oncologico/",
+   "en": "/en/pilates-for/cancer-treatment/"
+  },
+  {
+   "es": "/pilates-para/linfedema/",
+   "en": "/en/pilates-for/lymphedema/"
+  }
+ ],
+ "indices": {
+  "es": "/pilates-para/",
+  "en": "/en/pilates-for/"
+ }
+}

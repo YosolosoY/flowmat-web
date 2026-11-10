@@ -7,11 +7,11 @@
     ? { de: 'of', nunca: 'never proposed', cuidado: 'with a warning and a gentler option', resto: 'available as usual',
         tituloNunca: 'Never in the class', tituloCuidado: 'In the class, with a warning', marcaNunca: 'Not proposed',
         marcaCuidado: 'Careful', sinNunca: 'No exercise is ruled out for this condition: the care is in how each one is done.',
-        dosis: 'Reps and times are also lowered automatically.', ejercicios: 'exercises in the catalog' }
+        dosis: 'Reps and times are also lowered automatically.', ejercicios: 'exercises in the catalog', guia: 'Full guide:' }
     : { de: 'de', nunca: 'nunca se proponen', cuidado: 'con aviso y opción más suave', resto: 'disponibles como siempre',
         tituloNunca: 'Nunca entran en la clase', tituloCuidado: 'Entran con aviso', marcaNunca: 'No se propone',
         marcaCuidado: 'Con cuidado', sinNunca: 'Ningún ejercicio queda fuera por esta condición: el cuidado está en cómo se hace cada uno.',
-        dosis: 'Además, se bajan solas las repeticiones y los tiempos.', ejercicios: 'ejercicios en el catálogo' };
+        dosis: 'Además, se bajan solas las repeticiones y los tiempos.', ejercicios: 'ejercicios en el catálogo', guia: 'Guía completa:' };
   var lista = caja.querySelector('.demo-elegir');
   var res = caja.querySelector('.demo-resultado');
 
@@ -33,6 +33,7 @@
     html += '<div class="demo-columnas"><div><h3>' + T.tituloNunca + '</h3>' +
       (c.ejemplosNunca.length ? c.ejemplosNunca.map(function (e) { return ficha(e, 'no'); }).join('') : '<p class="nota">' + T.sinNunca + '</p>') +
       '</div><div><h3>' + T.tituloCuidado + '</h3>' + c.ejemplosCuidado.map(function (e) { return ficha(e, 'aviso'); }).join('') + '</div></div>';
+    if (c.guia) html += '<p class="nota" style="margin-top:22px">' + T.guia + ' <a href="' + c.guia[idioma] + '">' + esc(c.nombre[idioma]) + ' →</a></p>';
     res.innerHTML = html;
     Array.prototype.forEach.call(lista.children, function (b) { b.setAttribute('aria-pressed', String(b.dataset.codigo === c.codigo)); });
   }

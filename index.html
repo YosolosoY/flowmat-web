@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FlowMat: planifica la clase de pilates de cada alumno</title>
-<meta name="description" content="FlowMat es la app para profesoras y profesores de pilates: arma clases individuales y grupales según la edad, el nivel y las condiciones médicas de cada alumno, con más de 500 ejercicios y un mapa del cuerpo que muestra qué trabaja cada clase.">
+<meta name="description" content="FlowMat arma clases de pilates para cada alumno según su edad, nivel y condiciones médicas, con 500 ejercicios y un mapa del cuerpo de cada clase.">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://flowmat.monsalve.com.co/">
 <link rel="alternate" hreflang="es" href="https://flowmat.monsalve.com.co/">
 <link rel="alternate" hreflang="en" href="https://flowmat.monsalve.com.co/en/">
@@ -16,11 +17,15 @@
 <meta name="theme-color" content="#0E1620" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FlowMat">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:locale" content="es_LA">
 <meta property="og:title" content="FlowMat: planifica la clase de pilates de cada alumno">
 <meta property="og:description" content="Clases individuales y grupales según las condiciones médicas de cada alumno, con un mapa del cuerpo que muestra qué trabaja cada clase.">
 <meta property="og:url" content="https://flowmat.monsalve.com.co/">
 <meta property="og:image" content="https://flowmat.monsalve.com.co/prensa/img/grafico-destacado-es.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="Mapa del cuerpo de FlowMat con las zonas que trabaja una clase">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/estilo.css">
 <script type="application/ld+json">
@@ -37,6 +42,97 @@
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
 }
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "¿Para quién es FlowMat?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Para profesoras y profesores de pilates que dan clases particulares o grupales, por su cuenta o en un estudio. No es una app para que el alumno entrene solo, ni un sistema de reservas o de cobros: se enfoca en planificar bien cada clase."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Reemplaza la autorización médica?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. FlowMat te ayuda a planificar, pero no reemplaza el criterio de un profesional de la salud. Por eso guarda la fecha de la autorización médica del alumno y te avisa cuando está por vencer."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Sirve para reformer?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Por ahora FlowMat cubre mat, silla y pared, con elementos como banda, pesas, aro, balón, fitball, rodillo y tobilleras. El reformer está pensado para una versión futura."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Puedo cambiar la clase que arma?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Sí: cambia un ejercicio por otro, el orden o las repeticiones, agrega o quita. También puedes marcar ejercicios favoritos y otros que nunca quieres que proponga."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Qué es un alumno activo?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Uno que tiene un programa en curso. Puedes archivar a quien ya no viene y el cupo queda libre; sus datos se conservan."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Y si pierdo el teléfono?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Si entraste con tu cuenta de Google, el respaldo está en tu Drive y lo recuperas en el teléfono nuevo. Sin cuenta, los datos quedan solo en el teléfono; también puedes guardar una copia en archivo."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Necesito internet?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Para armar y dar clases, no. Internet se usa para el respaldo en tu Drive y para gestionar tu plan."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Hay versión para iPhone?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Por ahora FlowMat está solo para Android."
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "FlowMat",
+ "url": "https://flowmat.monsalve.com.co/",
+ "inLanguage": [
+  "es",
+  "en"
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "FlowMat",
+  "url": "https://flowmat.monsalve.com.co/",
+  "logo": "https://flowmat.monsalve.com.co/prensa/img/icono-512.png",
+  "email": "lince.revision@gmail.com"
+ }
+}
+</script>
 </head>
 <body>
 <main class="sitio">
@@ -46,6 +142,7 @@
       <a href="#prueba">Pruébalo</a>
       <a href="#como">Cómo funciona</a>
       <a href="#planes">Planes</a>
+      <a href="#guias">Guías</a>
       <a href="#preguntas">Preguntas</a>
       <a href="/en/" hreflang="en" lang="en">English</a>
     </nav>
@@ -70,7 +167,7 @@
     </div>
     <div class="hero-mapa" aria-label="Ejemplo de la clase de una alumna de 68 años con osteoporosis">
       <div class="cabecera"><strong>Qué trabaja hoy</strong><span class="etiqueta">Clase de ejemplo · 68 años</span></div>
-      <img src="/img/mapa.svg" alt="Mapa del cuerpo de frente y de espalda: el abdomen se trabaja mucho, la cadera y los glúteos bastante, y la columna se marca para cuidar" width="440" height="400">
+      <img src="/img/mapa.svg" fetchpriority="high" alt="Mapa del cuerpo de frente y de espalda: el abdomen se trabaja mucho, la cadera y los glúteos bastante, y la columna se marca para cuidar" width="440" height="400">
       <div class="leyenda"><span><i class="l-mucho"></i>Mucho</span><span><i class="l-poco"></i>Poco</span><span><i class="l-cuidar"></i>Cuidar</span></div>
       <ul class="lista">
         <li><span>Abdomen</span><b>14 min</b></li>
@@ -190,6 +287,12 @@
     <p class="nota" style="margin-top:22px">Detalles en la <a href="/privacidad/">política de privacidad</a>.</p>
   </section>
 
+  <section id="guias">
+    <div class="encabezado"><span class="etiqueta">Guías</span><h2>Pilates por condición: qué evita FlowMat y qué hace con cuidado</h2></div>
+    <p class="intro sangria">Cada condición médica tiene sus reglas en FlowMat. Estas guías muestran, con datos reales del catálogo, qué ejercicios no se proponen, cuáles entran con aviso y cómo se ajusta la clase.</p>
+    <ul class="enlaces grande"><li><a href="/pilates-para/osteoporosis-u-osteopenia/">Osteoporosis u osteopenia</a></li><li><a href="/pilates-para/hernia-o-protrusion-discal-lumbar/">Hernia o protrusión discal lumbar</a></li><li><a href="/pilates-para/lumbalgia-sin-hernia/">Lumbalgia sin hernia</a></li><li><a href="/pilates-para/embarazo-segundo-y-tercer-trimestre/">Embarazo (segundo y tercer trimestre)</a></li><li><a href="/pilates-para/diastasis-abdominal/">Diástasis abdominal</a></li><li><a href="/pilates-para/suelo-pelvico-debil-incontinencia-prolapso/">Suelo pélvico débil / incontinencia / prolapso</a></li><li><a href="/pilates-para/hipertension/">Hipertensión</a></li><li><a href="/pilates-para/artrosis-de-rodilla/">Artrosis de rodilla</a></li><li><a href="/pilates-para/protesis-de-cadera-abordaje-posterior/">Prótesis de cadera (abordaje posterior)</a></li><li><a href="/pilates-para/cervicalgia-o-hernia-cervical/">Cervicalgia o hernia cervical</a></li><li><a href="/pilates-para/hombro-manguito-rotador-pinzamiento-hombro-congelado/">Hombro (manguito rotador / pinzamiento / hombro congelado)</a></li><li><a href="/pilates-para/escoliosis/">Escoliosis</a></li><li><a href="/pilates-para/fibromialgia/">Fibromialgia</a></li><li><a href="/pilates-para/posparto-parto-vaginal/">Posparto (parto vaginal)</a></li><li><a href="/pilates-para/">Ver las 42 condiciones →</a></li></ul>
+  </section>
+
   <section id="preguntas">
     <div class="encabezado"><span class="etiqueta">Preguntas</span><h2>Preguntas frecuentes</h2></div>
     <details><summary>¿Para quién es FlowMat?</summary>
@@ -225,6 +328,7 @@
   <footer class="pie">
     <span>© 2026 FlowMat</span>
     <nav>
+      <a href="/pilates-para/">Pilates por condición</a>
       <a href="/privacidad/">Privacidad</a>
       <a href="/borrar-cuenta/">Borrar mi cuenta</a>
       <a href="/prensa/">Prensa</a>
@@ -233,7 +337,7 @@
     </nav>
   </footer>
 </main>
-<script src="/condiciones.js"></script>
-<script src="/demo.js"></script>
+<script src="/condiciones.js" defer></script>
+<script src="/demo.js" defer></script>
 </body>
 </html>
