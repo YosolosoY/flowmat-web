@@ -4,7 +4,7 @@
    flowmat/scripts/tienda/sitio-paginas-condiciones.ts)."""
 import json
 
-B = 'https://flowmat.monsalve.com.co'
+B = 'https://flowmatapp.com'
 HOY = '2026-11-10'
 datos = json.load(open('datos-paginas.json'))
 pares = [('/', '/en/'), (datos['indices']['es'], datos['indices']['en']), ('/privacidad/', '/en/privacy/'), ('/borrar-cuenta/', '/en/delete-account/')]

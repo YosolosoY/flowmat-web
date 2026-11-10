@@ -2,7 +2,7 @@
 """Auditoría SEO del sitio: títulos y descripciones (únicos y de buen largo), un solo H1, canonical a sí misma, hreflang
 recíproco, JSON-LD válido, imágenes con alt y medidas, enlaces internos que existen y sitemap completo. python3 auditar_seo.py"""
 import glob, json, os, re, collections
-B = 'https://flowmat.monsalve.com.co'
+B = 'https://flowmatapp.com'
 pags = [p for p in glob.glob('**/index.html', recursive=True)]
 errores = []; avisos = []
 def ruta(p): return '/' + p[:-len('index.html')] if p != 'index.html' else '/'

@@ -1,6 +1,6 @@
 # flowmat-web
 
-Sitio de FlowMat: flowmat.monsalve.com.co (GitHub Pages). HTML a mano + CSS propio (identidad de la app: Onest y Martian Mono locales, esquinas rectas, naranja solo para «cuidar»).
+Sitio de FlowMat: flowmatapp.com (GitHub Pages). HTML a mano + CSS propio (identidad de la app: Onest y Martian Mono locales, esquinas rectas, naranja solo para «cuidar»).
 
 - `index.html`, `en/index.html`: portada en español e inglés (sin redirección automática).
 - `pilates-para/` y `en/pilates-for/`: guías por condición (42 × 2 idiomas + índices). **Se generan** desde el catálogo de la app:
