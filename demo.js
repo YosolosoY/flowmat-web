@@ -29,7 +29,7 @@
       '<div class="cifra no"><strong>' + c.nunca + '</strong><span>' + T.nunca + '</span></div>' +
       '<div class="cifra aviso"><strong>' + c.cuidado + '</strong><span>' + T.cuidado + '</span></div>' +
       '<div class="cifra ok"><strong>' + resto + '</strong><span>' + T.resto + '</span></div></div>';
-    if (c.aviso) html += '<div class="demo-aviso">⚠️ ' + esc(c.aviso[idioma]) + (c.dosis < 1 ? ' ' + T.dosis : '') + '</div>';
+    if (c.aviso) html += '<div class="demo-aviso">' + esc(c.aviso[idioma]) + (c.dosis < 1 ? ' ' + T.dosis : '') + '</div>';
     html += '<div class="demo-columnas"><div><h3>' + T.tituloNunca + '</h3>' +
       (c.ejemplosNunca.length ? c.ejemplosNunca.map(function (e) { return ficha(e, 'no'); }).join('') : '<p class="nota">' + T.sinNunca + '</p>') +
       '</div><div><h3>' + T.tituloCuidado + '</h3>' + c.ejemplosCuidado.map(function (e) { return ficha(e, 'aviso'); }).join('') + '</div></div>';

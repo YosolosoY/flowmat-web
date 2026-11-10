@@ -3,21 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FlowMat: pilates classes for every student, schedule and payments</title>
-<meta name="description" content="FlowMat is the app for pilates teachers: build safe classes based on each student's medical conditions with 350+ exercises, run the class step by step, and keep your schedule, class cycles and payments in one place.">
+<title>FlowMat: plan the pilates class for every student</title>
+<meta name="description" content="FlowMat is the app for pilates teachers: build individual and group classes around each student's age, level and medical conditions, with 500+ exercises and a body map that shows what every class works.">
 <link rel="canonical" href="https://flowmat.monsalve.com.co/en/">
 <link rel="alternate" hreflang="es" href="https://flowmat.monsalve.com.co/">
 <link rel="alternate" hreflang="en" href="https://flowmat.monsalve.com.co/en/">
 <link rel="alternate" hreflang="x-default" href="https://flowmat.monsalve.com.co/en/">
 <link rel="icon" href="/img/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
-<meta name="theme-color" content="#F4F0EA" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#151A17" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="/fuentes/onest-800extrabold.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#F1F4F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1620" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FlowMat">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="FlowMat: pilates classes for every student">
-<meta property="og:description" content="Build safe classes for each student, run them step by step, and keep schedule, class cycles and payments in one app.">
+<meta property="og:title" content="FlowMat: plan the pilates class for every student">
+<meta property="og:description" content="Individual and group classes built around each student's medical conditions, with a body map that shows what every class works.">
 <meta property="og:url" content="https://flowmat.monsalve.com.co/en/">
 <meta property="og:image" content="https://flowmat.monsalve.com.co/prensa/img/grafico-destacado-en.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -30,9 +31,8 @@
   "operatingSystem": "Android",
   "applicationCategory": "HealthApplication",
   "inLanguage": ["en", "es"],
-  "description": "App for pilates teachers: classes based on each student's medical conditions, step-by-step class mode, schedule, class cycles and payments.",
+  "description": "App for pilates teachers: individual and group classes built around each student's medical conditions, with a body map and a step-by-step class mode.",
   "url": "https://flowmat.monsalve.com.co/en/",
-  "downloadUrl": "https://play.google.com/store/apps/details?id=co.com.monsalve.flowmat",
   "image": "https://flowmat.monsalve.com.co/prensa/img/icono-512.png",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
 }
@@ -41,238 +41,183 @@
 <body>
 <main class="sitio">
   <header class="barra">
-    <a href="/en/" class="logo"><img src="/img/icono-180.png" alt="" width="34" height="34">Flow<span>Mat</span></a>
+    <a href="/en/" class="logo"><img src="/img/icono-180.png" alt="" width="34" height="34"><b>Flow<span>Mat</span></b></a>
     <nav>
-      <a href="#how" class="secundario">How it works</a>
-      <a href="#price" class="secundario">Price</a>
-      <a href="#faq" class="secundario">FAQ</a>
+      <a href="#prueba">Try it</a>
+      <a href="#como">How it works</a>
+      <a href="#planes">Plans</a>
+      <a href="#preguntas">FAQ</a>
       <a href="/" hreflang="es" lang="es">Español</a>
     </nav>
   </header>
 
   <div class="portada">
     <div>
-      <h1>A pilates class <em>for every student</em>, in seconds.</h1>
-      <p class="bajada">FlowMat builds the class around your students' age, level, goals and medical conditions, guides you
-      step by step while you teach, and keeps your schedule, class cycles and payments.</p>
+      <span class="etiqueta">Pilates class planning</span>
+      <h1>Every student's class, <em>built around what their body needs</em>.</h1>
+      <p class="intro">FlowMat builds the class from each student's age, level, goals and medical conditions. You decide, adjust and teach; the app makes sure nothing it suggests can hurt them.</p>
       <div class="botones">
-        <a class="boton" href="https://play.google.com/store/apps/details?id=co.com.monsalve.flowmat">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8 1 .6l15.6-9.4c.4-.3.4-.9 0-1.2L5 2c-.5-.2-1 .1-1 .6z"/></svg>
-          Get it on Google Play
-        </a>
-        <a class="boton secundario" href="#try">Try it here</a>
+        <span class="boton apagado">Coming soon to Google Play</span>
+        <a class="boton sec" href="#prueba">Try it here</a>
       </div>
-      <ul class="marcas">
-        <li>Free with 1 student</li><li>One-time payment, no subscription</li><li>No ads</li><li>English and Spanish</li>
+      <ul class="garantias">
+        <li>Free with 2 students</li>
+        <li>Backup in your Google Drive</li>
+        <li>No ads</li>
+        <li>English and Spanish</li>
       </ul>
     </div>
-    <div class="telefono">
-      <img src="/img/en-en-clase.webp" alt="FlowMat class mode: one exercise with its drawing, dose and timer" width="540" height="1169">
+    <div class="hero-mapa" aria-label="Example class for a 68-year-old student with osteoporosis">
+      <div class="cabecera"><strong>What it works today</strong><span class="etiqueta">Sample class · age 68</span></div>
+      <img src="/img/mapa.svg" alt="Body map, front and back: the abdomen is worked a lot, the hips and glutes quite a bit, and the spine is marked as an area to protect" width="440" height="400">
+      <div class="leyenda"><span><i class="l-mucho"></i>A lot</span><span><i class="l-poco"></i>A little</span><span><i class="l-cuidar"></i>Protect</span></div>
+      <ul class="lista">
+        <li><span>Abdomen</span><b>14 min</b></li>
+        <li><span>Hips</span><b>9 min</b></li>
+        <li><span>Glutes</span><b>8 min</b></li>
+        <li class="cuida"><span>Protect: spine</span><b>osteoporosis</b></li>
+      </ul>
     </div>
   </div>
 
-  <section id="try">
-    <h2>Pick a condition and see what FlowMat does</h2>
-    <p class="intro">This is real data from the app's catalog. Tap a condition to see how many exercises are never
-    proposed, which ones come with a warning, and what guidance the teacher gets.</p>
+  <section id="prueba">
+    <div class="encabezado"><span class="etiqueta">Real data</span><h2>Pick a condition and see what FlowMat does</h2></div>
+    <p class="intro sangria">This is data from the app's catalog. Tap a condition: you'll see how many exercises are never suggested, which come with a warning and what guidance the teacher gets.</p>
     <div class="demo" data-demo>
       <div class="demo-elegir" role="group" aria-label="Conditions"></div>
       <div class="demo-resultado" aria-live="polite"></div>
     </div>
   </section>
 
-  <section id="how">
-    <h2>How it works</h2>
-    <p class="intro">Planning a different class for every student, around their injuries and conditions, takes time.
-    FlowMat does that work and leaves you what you do best: teaching.</p>
+  <section id="como">
+    <div class="encabezado"><span class="etiqueta">How it works</span><h2>Building a different class for every student takes time. FlowMat does that work.</h2></div>
     <div class="pasos">
-      <div class="paso">
-        <h3>Add your student</h3>
-        <p>Age, level, goals and medical conditions: low back pain, osteoporosis, pregnancy, joint replacements and 40 more.</p>
-      </div>
-      <div class="paso">
-        <h3>FlowMat builds the class</h3>
-        <p>Warm-up, cardio, basic pilates, core and stretching, for the length and equipment you choose. Change it any way
-        you like.</p>
-      </div>
-      <div class="paso">
-        <h3>Teach it step by step</h3>
-        <p>Class mode shows one exercise at a time, large, with a drawing, the dose and a timer.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="bloque">
-    <div class="texto">
-      <h2>Classes that look after each student</h2>
-      <p>More than 350 mat, chair and wall exercises, with band, weights, ring, small ball, fitball, foam roller and ankle weights.</p>
-      <ul>
-        <li><strong>What isn't recommended is never proposed.</strong> What needs care comes with a warning and a gentler variation.</li>
-        <li><strong>Dose by condition:</strong> fewer reps and more rest when needed.</li>
-        <li><strong>Group classes:</strong> the most restrictive condition rules, and you can rebuild the class with only those who came.</li>
-        <li><strong>You decide:</strong> swap an exercise, the order or the reps; mark favorites or exercises you never want.</li>
-      </ul>
-    </div>
-    <div class="capturas">
-      <img src="/img/en-clase.webp" alt="A class built for a student, with an overdue-payment notice and notes" width="540" height="1169" loading="lazy">
-      <img src="/img/en-catalogo.webp" alt="Exercise catalog with drawings and filters by block and equipment" width="540" height="1169" loading="lazy">
-    </div>
-  </section>
-
-  <section class="bloque inverso">
-    <div class="texto">
-      <h2>Your class, guided from your phone</h2>
-      <p>Leave your phone on the mat and focus on your students.</p>
-      <ul>
-        <li>One exercise at a time, with a drawing, the dose and a stopwatch or countdown.</li>
-        <li>"See how it's done": description and cues to correct.</li>
-        <li>Your notes about the student show up when the class starts.</li>
-        <li>The screen stays on while you teach.</li>
-      </ul>
-    </div>
-    <div class="capturas una">
-      <img src="/img/en-en-clase.webp" alt="FlowMat class mode" width="540" height="1169" loading="lazy">
-    </div>
-  </section>
-
-  <section class="bloque">
-    <div class="texto">
-      <h2>Schedule, class cycles and payments in one place</h2>
-      <p>What you keep today in a notebook, spreadsheets and chats, organized.</p>
-      <ul>
-        <li>Cycles by number of classes, months or weeks, with a fixed schedule or by booking. Classes schedule themselves.</li>
-        <li>Move, cancel or make up classes; attendance and history with your notes.</li>
-        <li>Your own plans and prices, in your currency. Full payment, deposits or installments, with mixed payment methods.</li>
-        <li>Overdue installments, what you collected this month and unpaid cycles.</li>
-        <li>WhatsApp reminders for your students and a daily notification with today's classes.</li>
-      </ul>
-    </div>
-    <div class="capturas">
-      <img src="/img/en-agenda.webp" alt="FlowMat schedule with the next class" width="540" height="1169" loading="lazy">
-      <img src="/img/en-ventas.webp" alt="Sales: to collect, collected this month and overdue installments" width="540" height="1169" loading="lazy">
-    </div>
-  </section>
-
-  <section class="bloque inverso">
-    <div class="texto">
-      <h2>A complete profile for each student</h2>
-      <ul>
-        <li>Medical clearance with a reminder when it's about to expire.</li>
-        <li>Pregnancy and postpartum weeks calculated from the due date.</li>
-        <li>Emergency contact and treating doctor.</li>
-        <li>Notes that follow the student or group into the next classes.</li>
-      </ul>
-    </div>
-    <div class="capturas una">
-      <img src="/img/en-alumno.webp" alt="Student profile: goals, medical conditions, contacts and cycles" width="540" height="1169" loading="lazy">
+      <div class="paso"><span class="num">1</span><h3>Add your student</h3><p>Age, level, goals and medical conditions: low back pain, osteoporosis, pregnancy, joint replacements and 40+ more. After recent surgery or childbirth, FlowMat also asks how long ago.</p></div>
+      <div class="paso"><span class="num">2</span><h3>FlowMat builds the program</h3><p>An ordered list of classes, with a date if you want one. Each class has warm-up, cardio, core pilates, core work and stretching, for the length and equipment you choose.</p></div>
+      <div class="paso"><span class="num">3</span><h3>Teach it step by step</h3><p>Class mode shows one exercise at a time, large, with drawing, dose and timer. Change anything before or during class.</p></div>
     </div>
   </section>
 
   <section>
-    <h2>How the catalog was made</h2>
-    <p class="intro">Safety comes first. That's why every exercise has its contraindications and precautions written
-    down, not invented by the app.</p>
-    <div class="tarjetas">
-      <div class="tarjeta"><span class="icono">🩺</span><h3>Reviewed rules</h3>
-        <p>The safety rules for each condition were reviewed by a pilates teacher and a doctor.</p></div>
-      <div class="tarjeta"><span class="icono">📚</span><h3>Checked against books</h3>
-        <p>The catalog was compared with reference pilates books, including programs for older adults.</p></div>
-      <div class="tarjeta"><span class="icono">✍️</span><h3>Original texts</h3>
-        <p>Every exercise has a description, cues to correct, easier and harder variations, and notes per condition.</p></div>
+    <div class="bloque">
+      <div>
+        <span class="etiqueta">The body map</span>
+        <h2 style="margin-top:10px">See at a glance what each class works</h2>
+        <p class="intro">Every class and every program is summed up in a body map, front and back. Areas are shaded by how much they're worked; the ones to protect because of the student's conditions are striped in orange.</p>
+        <ul>
+          <li><b>Balance the program.</b> Spot right away if you've been working the same areas for weeks.</li>
+          <li><b>Protect what matters.</b> The spine in low back pain or an injured shoulder stay marked in every class.</li>
+          <li><b>Pick a focus.</b> Ask for a class centered on glutes, back or hips, and FlowMat spreads the exercises.</li>
+        </ul>
+      </div>
+      <div class="telefono"><img src="/img/clase-en.webp" alt="A class in FlowMat: body map and minutes per area" width="640" height="953" loading="lazy"></div>
     </div>
   </section>
 
-  <section id="price">
-    <h2>Price</h2>
-    <p class="intro">Try everything with one student. If it works for you, pay once and it's yours forever.</p>
+  <section>
+    <div class="bloque invertido">
+      <div>
+        <span class="etiqueta">Individual and group classes</span>
+        <h2 style="margin-top:10px">In a group, each student does their own version</h2>
+        <p class="intro">Group classes are part of the paid plans. The class follows the group's most restrictive condition, and every exercise says who does a gentler or a harder version. If someone missed, rebuild the class with just the people who came.</p>
+        <ul>
+          <li><b>Gentler for care.</b> Anyone with a caution for that exercise sees their variation, by name.</li>
+          <li><b>Harder for level.</b> Someone above the group's level gets the version that challenges them.</li>
+          <li><b>Notes per student.</b> "Right shoulder hurts when lifting arms" shows up in that day's class.</li>
+        </ul>
+      </div>
+      <div class="dos-telefonos">
+        <figure class="telefono"><img src="/img/grupo-en.webp" alt="A group class in FlowMat: who came and which conditions to protect" width="640" height="1459" loading="lazy"></figure>
+        <figure class="telefono"><img src="/img/programa-en.webp" alt="A class program for one student, with the map of what was worked" width="640" height="1384" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bloque">
+      <div>
+        <span class="etiqueta">Class mode</span>
+        <h2 style="margin-top:10px">Leave the phone on the mat and teach</h2>
+        <p class="intro">One exercise at a time, big and clear, with the dose, the timer and the student's notes at the start. It works offline and with the phone in landscape.</p>
+        <ul>
+          <li><b>The drawing moves.</b> It shows the start and end position of each repetition.</li>
+          <li><b>What it works, always visible.</b> A small map in the corner of every exercise.</li>
+          <li><b>Warnings at the right moment.</b> "For Rosa: avoid loaded spinal flexion" appears before the exercise.</li>
+        </ul>
+      </div>
+      <div class="telefono"><img src="/img/en-clase-en.webp" alt="Class mode: one exercise with its drawing, dose, timer and body map" width="640" height="1340" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bloque invertido">
+      <div>
+        <span class="etiqueta">The catalog</span>
+        <h2 style="margin-top:10px">500+ exercises, reviewed with medical criteria</h2>
+        <p class="intro">Mat, chair and wall, with band, weights, ring, ball, fitball, roller and ankle weights. Every exercise has its drawing, dose, cues and the conditions it is avoided or done carefully with.</p>
+        <p class="nota">The safety rules were reviewed by a medical committee: for example, after abdominal surgery or childbirth no core work is suggested for the first 8 weeks, and jumps are removed from age 70.</p>
+      </div>
+      <div class="telefono"><img src="/img/catalogo-en.webp" alt="Exercise catalog with search, filters by block and equipment, and a drawing for each exercise" width="640" height="1459" loading="lazy"></div>
+    </div>
+    <div class="cifras">
+      <div><strong>500</strong><span>exercises</span></div>
+      <div><strong>42</strong><span>conditions with their own rules</span></div>
+      <div><strong>3</strong><span>disciplines: mat, chair and wall</span></div>
+      <div><strong>2</strong><span>languages: English and Spanish</span></div>
+    </div>
+  </section>
+
+  <section id="planes">
+    <div class="encabezado"><span class="etiqueta">Plans</span><h2>Start free. Pay by how many students you have.</h2></div>
+    <p class="intro sangria">Safe classes, the body map, class mode and data backup are on every plan, free included. Paid plans add more active students and group classes.</p>
     <div class="planes">
-      <div class="plan">
-        <h3>Free</h3>
-        <p class="precio"><strong>US$0</strong></p>
-        <ul>
-          <li>1 active student</li>
-          <li>Classes based on their conditions, with the full catalog</li>
-          <li>Class mode, schedule, class cycles and payments</li>
-          <li>Backup to your Google account</li>
-        </ul>
-      </div>
-      <div class="plan destacado">
-        <h3>FlowMat full</h3>
-        <p class="precio"><strong>US$29.99</strong> one-time payment, no subscription</p>
-        <ul>
-          <li>Everything in Free</li>
-          <li>Unlimited students</li>
-          <li>Group classes</li>
-        </ul>
-      </div>
+      <div class="plan gratis"><h3>Free</h3><span class="alumnos">2 active students</span><p class="precio">US$0</p><p class="anual">Individual classes, to try it calmly</p></div>
+      <div class="plan"><h3>Up to 20</h3><span class="alumnos">20 active students</span><p class="precio">US$7.99<small> /month</small></p><p class="anual">or US$79.99 a year</p></div>
+      <div class="plan"><h3>Up to 50</h3><span class="alumnos">50 active students</span><p class="precio">US$12.99<small> /month</small></p><p class="anual">or US$129.99 a year</p></div>
+      <div class="plan"><h3>51 or more</h3><span class="alumnos">no limit</span><p class="precio">US$19.99<small> /month</small></p><p class="anual">or US$199.99 a year</p></div>
     </div>
-    <p class="nota">Price may vary by country; Google Play shows you the final price in your currency.</p>
+    <p class="nota" style="margin-top:20px">Monthly or yearly subscription, cancel any time. Prices are in US dollars; Google Play shows the final price in your currency.</p>
   </section>
 
   <section>
-    <h2>Your students' data, protected</h2>
-    <div class="tarjetas">
-      <div class="tarjeta"><span class="icono">🔒</span><h3>Only you can see it</h3>
-        <p>If you sign in with Google, it's backed up to your account and nobody else can read it.</p></div>
-      <div class="tarjeta"><span class="icono">🚫</span><h3>No ads</h3>
-        <p>We don't sell data or use it for advertising.</p></div>
-      <div class="tarjeta"><span class="icono">📱</span><h3>New phone, everything comes back</h3>
-        <p>Sign in on your new phone and get your students, classes and payments back.</p></div>
+    <div class="encabezado"><span class="etiqueta">Your data</span><h2>Your students' data stays with you</h2></div>
+    <div class="tres">
+      <div><h3>Backup in your Drive</h3><p>If you sign in with Google, the backup is saved in a hidden folder in your own Google Drive. FlowMat keeps no copy on its servers.</p></div>
+      <div><h3>Only the app's folder</h3><p>FlowMat asks for access to that folder only, which only the app can open. It doesn't read or touch the rest of your Drive.</p></div>
+      <div><h3>No ads, no selling data</h3><p>No advertising and no tracking. Switch phones, sign in, and everything comes back.</p></div>
     </div>
-    <p class="nota">Details in the <a href="/en/privacy/">privacy policy</a>.</p>
+    <p class="nota" style="margin-top:22px">Details in the <a href="/en/privacy/">privacy policy</a>.</p>
   </section>
 
-  <section>
-    <h2>See it in action</h2>
-    <div class="galeria-inicio">
-      <figure><img src="/img/en-agenda.webp" alt="" width="540" height="1169" loading="lazy"><figcaption>Schedule</figcaption></figure>
-      <figure><img src="/img/en-clase.webp" alt="" width="540" height="1169" loading="lazy"><figcaption>The class</figcaption></figure>
-      <figure><img src="/img/en-en-clase.webp" alt="" width="540" height="1169" loading="lazy"><figcaption>Class mode</figcaption></figure>
-      <figure><img src="/img/en-alumno.webp" alt="" width="540" height="1169" loading="lazy"><figcaption>Student profile</figcaption></figure>
-      <figure><img src="/img/en-ventas.webp" alt="" width="540" height="1169" loading="lazy"><figcaption>Sales</figcaption></figure>
-      <figure><img src="/img/en-catalogo.webp" alt="" width="540" height="1169" loading="lazy"><figcaption>Catalog</figcaption></figure>
-    </div>
-  </section>
-
-  <section id="faq">
-    <h2>Frequently asked questions</h2>
+  <section id="preguntas">
+    <div class="encabezado"><span class="etiqueta">FAQ</span><h2>Frequently asked questions</h2></div>
     <details><summary>Who is FlowMat for?</summary>
-      <p>For pilates teachers who give private or group classes, on their own or in a studio. It isn't an app for
-      students to train alone.</p></details>
-    <details><summary>Does it cover the reformer?</summary>
-      <p>For now FlowMat covers mat, chair and wall, with equipment like band, weights, ring, small ball, fitball, foam
-      roller and ankle weights. The reformer is planned for a future version.</p></details>
+      <p>Pilates teachers who give private or group classes, on their own or at a studio. It is not an app for students to train alone, nor a booking or billing system: it focuses on planning each class well.</p></details>
     <details><summary>Does it replace medical clearance?</summary>
-      <p>No. FlowMat helps you plan, but it doesn't replace a health professional's judgment. That's why it stores the
-      date of the medical clearance and reminds you when it's about to expire.</p></details>
-    <details><summary>What about group classes?</summary>
-      <p>The group's most restrictive condition rules. If some students didn't come, you can rebuild the class with
-      only those present. Group classes are part of FlowMat full.</p></details>
+      <p>No. FlowMat helps you plan, but it does not replace a health professional's judgment. That is why it stores the date of the student's medical clearance and warns you when it is about to expire.</p></details>
+    <details><summary>Does it work for reformer?</summary>
+      <p>For now FlowMat covers mat, chair and wall, with equipment such as band, weights, ring, ball, fitball, roller and ankle weights. Reformer is planned for a future version.</p></details>
     <details><summary>Can I change the class it builds?</summary>
-      <p>Yes: swap an exercise, the order or the reps, add or remove. You can also mark favorite exercises and others
-      you never want it to propose.</p></details>
+      <p>Yes: swap an exercise, change the order or the reps, add or remove. You can also mark favorite exercises and others you never want suggested.</p></details>
+    <details><summary>What is an active student?</summary>
+      <p>One with a program in progress. You can archive someone who no longer comes and the spot is freed; their data is kept.</p></details>
     <details><summary>What if I lose my phone?</summary>
-      <p>If you signed in with your Google account, everything is backed up automatically. Without an account, the data
-      stays only on the phone; you can also export a backup file.</p></details>
+      <p>If you signed in with your Google account, the backup is in your Drive and you restore it on the new phone. Without an account, data stays only on the phone; you can also save a backup file.</p></details>
     <details><summary>Do I need internet?</summary>
-      <p>Not to build and teach classes. Internet is used to back up your data to your account and to buy FlowMat full.</p></details>
+      <p>Not to build or teach classes. Internet is used for the backup to your Drive and to manage your plan.</p></details>
     <details><summary>Is there an iPhone version?</summary>
       <p>For now FlowMat is Android only.</p></details>
   </section>
 
   <div class="salud">
-    <strong>Important:</strong> FlowMat helps you plan classes, but it doesn't replace a health professional's judgment.
-    If you have any doubt about a student, check with their doctor.
+    <strong>Important:</strong> FlowMat helps plan classes, but it does not replace a health professional's judgment. If in doubt about a student, ask their treating doctor.
   </div>
 
   <section class="cierre">
     <h2>Your next class, ready in seconds</h2>
-    <p class="intro" style="margin: 0 auto 24px;">Add your first student and let FlowMat build the class.</p>
     <div class="botones">
-      <a class="boton" href="https://play.google.com/store/apps/details?id=co.com.monsalve.flowmat">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8 1 .6l15.6-9.4c.4-.3.4-.9 0-1.2L5 2c-.5-.2-1 .1-1 .6z"/></svg>
-        Get it on Google Play
-      </a>
+      <span class="boton apagado">Coming soon to Google Play</span>
+      <a class="boton sec" href="#prueba">Try it here</a>
     </div>
   </section>
 
@@ -281,7 +226,7 @@
     <nav>
       <a href="/en/privacy/">Privacy</a>
       <a href="/en/delete-account/">Delete my account</a>
-      <a href="/prensa/#english">Press</a>
+      <a href="/prensa/">Press</a>
       <a href="mailto:lince.revision@gmail.com">Contact</a>
       <a href="/" hreflang="es" lang="es">Español</a>
     </nav>
