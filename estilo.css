@@ -124,6 +124,7 @@ section .intro { margin-bottom: 36px; }
 .bloque li b { font-weight: 700; }
 .telefono { border: 2px solid var(--tinta); background: var(--fondo); max-width: 360px; margin: 0 auto; width: 100%; overflow: hidden; }
 .telefono img { width: 100%; }
+.ficha-img { border: 2px solid var(--tinta); background: #fff; width: 100%; display: block; }
 .dos-telefonos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
 .dos-telefonos .telefono:nth-child(2) { margin-top: 48px; }
 figure { margin: 0; }
